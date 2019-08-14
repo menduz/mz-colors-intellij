@@ -1,0 +1,41 @@
+<idea-plugin>
+  <id>menduz.mz-colors</id>
+  <name>Darcula Sombre</name>
+  <version>1.0-SNAPSHOT</version>
+  <vendor email="jonathan.lermitage@gmail.com" url="https://github.com/jonathanlermitage">Jonathan Lermitage</vendor>
+  <description>
+      Darcula Sombre Theme: like Darcula Theme, with darker colors and unobtrusive borders.&lt;br/&gt;
+      &lt;b&gt;Apply theme&lt;/b&gt;: &lt;i&gt;File&lt;/i&gt; &amp;gt; &lt;i&gt;Settings...&lt;/i&gt; &amp;gt; &lt;i&gt;Appearance &amp;amp; Behavior&lt;/i&gt; &amp;gt; &lt;i&gt;Appearance&lt;/i&gt; &amp;gt; choose &lt;i&gt;Darcula Sombre&lt;/i&gt; theme and validate.&lt;br/&gt;&lt;br/&gt;
+      &lt;img src="https://raw.githubusercontent.com/jonathanlermitage/intellij-darcula-sombre-theme/master/screenshot.png" alt="theme preview"/&gt;
+    </description>
+  <change-notes>
+      1.4.0.192 (2019/07/29)
+      &lt;ul&gt;
+        &lt;li&gt;rework editor tabs-bar colors in IntelliJ 2019.2.&lt;/li&gt;
+      &lt;/ul&gt;
+      1.3 (2019/07/26)
+      &lt;ul&gt;
+        &lt;li&gt;fix editor tabs color in IntelliJ 2019.2 (see &lt;a href="https://youtrack.jetbrains.com/issue/IDEA-219027"&gt;Youtrack issue #IDEA-219027&lt;/a&gt;).&lt;/li&gt;
+      &lt;/ul&gt;
+      1.2 (2019/04/23)
+      &lt;ul&gt;
+        &lt;li&gt;customize documentation's background.&lt;/li&gt;
+        &lt;li&gt;make editor tabs borders more visible.&lt;/li&gt;
+      &lt;/ul&gt;
+      1.1 (2019/04/18)
+      &lt;ul&gt;
+        &lt;li&gt;fix plugin validation (fix "Too short &amp;lt;change-notes&amp;gt; in plugin descriptor plugin.xml" issue).&lt;/li&gt;
+      &lt;/ul&gt;
+      1.0 (2019/04/18)
+      &lt;ul&gt;
+        &lt;li&gt;first release.&lt;/li&gt;
+      &lt;/ul&gt;
+    
+    </change-notes>
+  <idea-version since-build="191.6183" until-build="201.*"/>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="a4453dfe-5709-46d1-889c-c7f5d3da14d7" path="/darcula_sombre.theme.json"/>
+  </extensions>
+  <actions/>
+</idea-plugin>

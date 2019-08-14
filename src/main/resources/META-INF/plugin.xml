@@ -1,0 +1,56 @@
+<idea-plugin>
+    <id>menduz.mz-colors</id>
+    <name>Darcula Sombre</name>
+    <version>1.4.0.192</version>
+    <vendor email="jonathan.lermitage@gmail.com" url="https://github.com/jonathanlermitage">Jonathan Lermitage</vendor>
+
+    <description><![CDATA[
+      Darcula Sombre Theme: like Darcula Theme, with darker colors and unobtrusive borders.<br/>
+      <b>Apply theme</b>: <i>File</i> &gt; <i>Settings...</i> &gt; <i>Appearance &amp; Behavior</i> &gt; <i>Appearance</i> &gt; choose <i>Darcula Sombre</i> theme and validate.<br/><br/>
+      <img src="https://raw.githubusercontent.com/jonathanlermitage/intellij-darcula-sombre-theme/master/screenshot.png" alt="theme preview"/>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      1.4.0.192 (2019/07/29)
+      <ul>
+        <li>rework editor tabs-bar colors in IntelliJ 2019.2.</li>
+      </ul>
+      1.3 (2019/07/26)
+      <ul>
+        <li>fix editor tabs color in IntelliJ 2019.2 (see <a href="https://youtrack.jetbrains.com/issue/IDEA-219027">Youtrack issue #IDEA-219027</a>).</li>
+      </ul>
+      1.2 (2019/04/23)
+      <ul>
+        <li>customize documentation's background.</li>
+        <li>make editor tabs borders more visible.</li>
+      </ul>
+      1.1 (2019/04/18)
+      <ul>
+        <li>fix plugin validation (fix "Too short &lt;change-notes&gt; in plugin descriptor plugin.xml" issue).</li>
+      </ul>
+      1.0 (2019/04/18)
+      <ul>
+        <li>first release.</li>
+      </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="192"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+           on how to target different products -->
+    <!-- uncomment to enable plugin in all products-->
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <!--suppress PluginXmlValidity -->
+        <themeProvider id="a4453dfe-5709-46d1-889c-c7f5d3da14d7" path="/darcula_sombre.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

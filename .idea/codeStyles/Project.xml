@@ -1,0 +1,9 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ClojureCodeStyleSettings>{
+  :exercise-mz.service-test/fact :only-indent
+  :midje.sweet/fact :only-indent
+  :midje.sweet/facts :only-indent
+}</ClojureCodeStyleSettings>
+  </code_scheme>
+</component>

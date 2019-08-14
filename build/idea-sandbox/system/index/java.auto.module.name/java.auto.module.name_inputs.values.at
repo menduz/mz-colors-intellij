@@ -1,0 +1,34 @@
+/Header Record For PersistentHashMapValueStorage	args4jfinagle.kafka.api.2.11jetty.extensions	keypertls.extensions
+bytebuffercamel.snake.kebablogback.classiclogback.corecheshirecider.nrepl	clansiclj.http
+clj.jwtclj.time	clj.tuple	cljdevclojure.completecolorizezkclientaws.java.sdk.coreaws.java.sdk.dynamodbaws.java.sdk.iamaws.java.sdk.kmsaws.java.sdk.rdsaws.java.sdk.s3jmespath.javatransit.cljtransit.javadatomic.lucene.coredatomic.pro# com.fasterxml.jackson.annotationcom.fasterxml.jackson.core!com.fasterxml.jackson.databindjackson.dataformat.cborjackson.dataformat.smile)&com.fasterxml.jackson.module.paranamerjackson.module.scala.2.11caffeinefinagle.metrics.2.11	jsr305gsonguavaclosure.compiler.v20130603protobuf.javajson.simplelibphonenumberh2
+specterfinagle.prometheus.2.11	component
+dependency	encoretruss	paranamerfinagle.base.http.2.11finagle.core.2.11finagle.http.cookie.2.11finagle.http2.2.11finagle.http.2.11finagle.init.2.11finagle.netty3.2.11finagle.netty4.http.2.11finagle.netty4.2.11finagle.serversets.2.11finagle.stats.2.11finagle.thrift.2.11finagle.toggle.2.11finagle.tunable.2.11scrooge.core.2.11util.app.2.11util.cache.2.11util.codec.2.11util.collection.2.11util.core.2.11util.function.2.11util.hashing.2.11util.jvm.2.11util.lint.2.11util.logging.2.11util.registry.2.11util.security.2.11util.stats.2.11util.tunable.2.11scala.logging.2.11metrics.corecommon.corecommon.cryptocommon.datomic	common.dbcommon.docstorecommon.finaglecommon.http.clientcommon.i18n	common.iocommon.kafkacommon.metricscommon.replcommon.rolloutcommon.schematacommon.test
+common.xmlcommons.beanutilscommons.codeccommons.collectionscommons.fileuploadorg.apache.commons.iocommons.langcommons.loggingcrypto.equalitycrypto.random
+lazymap
+environfakercorehttp	thriftflarefipp	hiccup
+hiccupshttp.kit
+iapetosinflections	prettymetrics.coremetrics.jmxmetrics.jvmjaeger.corejaeger.thrift	netty.allnetty.buffernetty.codec.http2netty.codec.httpnetty.codec.socksnetty.codecnetty.commonnetty.handler.proxynetty.handlernetty.resolver"netty.tcnative.boringssl.staticnetty.transport.native.epoll%"netty.transport.native.unix.commonnetty.transportnettyopentracing.apiopentracing.noopopentracing.utilpedestal.interceptorpedestal.jettypedestal.logpedestal.routepedestal.service.toolspedestal.servicesimpleclientsimpleclient.commonsimpleclient.dropwizardsimpleclient.hotspotsimpleclient.pushgatewaymetrics3.riemann.reporterriemann.java.clientjavax.servlet.api
+java.ws.rsjline	joda.time	json.htmlless.awful.sslmidjearrangement
+suchwowpugetjopt.simplespymemcachednoencorenrepl
+ns.tracker
+nu.faraday
+nu.testmatcher.combinatorsartemis.commonsartemis.core.clientcommons.math3geronimo.json.1.0.spechttpasyncclienthttpclient.cache
+httpclienthttpcore.niohttpcorehttpmimejohnzon.coreconnect.apiconnect.jsonkafka.clientskafka.streams
+kafka.2.11	libthrifttomcat.jdbctomcat.juliaudience.annotations	zookeeperbcpkix.jdk15ongoogle.diff.match.patchbcprov.jdk15on	raven.cljalgo.monads
+clojureclojurescript
+core.async
+core.cachecore.incubator
+core.matchcore.memoizecore.rrb.vectorcore.specs.alpha
+core.unify
+data.codecdata.csv	data.jsondata.priority.mapdata.xml%"google.closure.library.third.partygoogle.closure.libraryjava.classpathjava.jmxmath.combinatorics
+spec.alpha
+test.checktools.analyzer.jvmtools.analyzer	tools.clitools.macrotools.namespacetools.readercommons.compiler.jdkcommons.compileralpn.apihttp2.commonhttp2.hpackhttp2.serverwebsocket.apiwebsocket.clientwebsocket.commonwebsocket.serverwebsocket.servletjetty.alpn.serverjetty.client
+jetty.httpjetty.iojetty.securityjetty.serverjetty.servlet
+jetty.util	jetty.xmlfressianHdrHistogram	javassistjboss.loggingjson
+jbcryptlz4.javamockito.allrhino
+msgpack
+asm.all
+rocksdbjniscala.java8.compat.2.11 scala.parser.combinators.2.11scala.libraryscala.reflectjcl.over.slf4jjul.to.slf4jlog4j.over.slf4j	slf4j.apidynapathsnappy.java
+pandectpotemkinplumbingschema.generators	schemaprone
+riddleyriemann.clojure.client
+ring.codec	ring.coresachem.interface	selmer	slingshotion.java	tigriszookeeper.clj
