@@ -28,7 +28,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <!--suppress PluginXmlValidity -->
-        <themeProvider id="a4453dfe-5709-46d1-889c-c7f5d3da14d7" path="/mz-colors.theme.json"/>
+        <themeProvider id="a4453dfe-5709-46d1-889c-c7f5d3da14d7" path="/mz_colors.theme.json"/>
     </extensions>
 
     <actions>
